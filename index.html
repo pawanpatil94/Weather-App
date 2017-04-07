@@ -1,0 +1,74 @@
+<html>
+
+<head>
+	<title>Weather App</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel=stylesheet type="text/css" href="css/style.css">
+	<link rel=stylesheet type="text/css" href="css/weather-icons-wind.css">
+	<link rel=stylesheet type="text/css" href="css/weather-icons.css">
+</head>
+
+<body>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<div class="page-header">
+					<h1>WEATHER APP</h1>
+				</div>
+			</div>
+			<div class="col-lg-4"></div>
+		</div>
+
+		<div class="container text-center">
+			<div class="jumbotron text-center">
+				<div class="row" id="location">
+					<form id="form">
+						<div><input id="location" class="form-control" placeholder="Enter location"></div>
+						<br>
+						<div style="display:inline">
+							<button id="display-btn" class="btn btn-primary">Display weather</button>
+							<button id="detect-btn" class="btn btn-primary">Detect My Location</button>
+						</div>
+					</form>
+				</div>
+				<div class="row text-center">
+					<h2 id="place"></h2>
+					<br>
+					<br>
+					<div class="col-lg-3 col-md-3 col-sm-3"></div>
+					<div class="col-lg-3 col-md-3 col-sm-3" id="celsius"></div>
+					<div class="col-lg-3 col-md-3 col-sm-3" id="farhenheit"></div>
+					<div class="col-lg-3 col-md-3 col-sm-3"></div>
+				</div>
+				<br>
+
+				<div class="row">
+					<br>
+					<div id="weather-type" class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div id="pressure" class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div id="min-temp" class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div id="max-temp" class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div id="humidity" class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div id="wind-speed" class="col-lg-2 col-md-2 col-sm-2"></div>
+				</div>
+
+				<div class="row">
+					<br>
+					<div id="weather-type-info" class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div id="pressure-info" class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div id="min-temp-info" class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div id="max-temp-info" class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div id="humidity-info" class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div id="wind-speed-info" class="col-lg-2 col-md-2 col-sm-2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

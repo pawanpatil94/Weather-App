@@ -1,0 +1,40 @@
+i {
+	font-size: 50px;
+	color: white;
+}
+
+#celsius,
+#farhenheit,
+#temp-info {
+	font-size: 35px;
+}
+
+#weather-info {
+	font-size: 20px;
+}
+
+#place-label {
+	font-size: 40px;
+}
+
+.jumbotron {
+	/*	height: 75%;*/
+	background: rgba(54, 54, 54, 0.7);
+}
+
+body {
+	transition: background 0.5s ease-out;
+	background-image: url('images/background/sunny.jpg');
+	/*	display: inline;*/
+}
+
+.page-header {
+	margin: 20px;
+	padding: 10px;
+	background-color: ;
+	background: rgba(54, 54, 54, 0.7);
+	color: white;
+	font-family: 'Tahoma';
+	border: black 1px solid;
+	border-radius: 5%;
+}
